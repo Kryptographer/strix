@@ -98,3 +98,22 @@ schema.graphql
 /.benchmarks/
 /references/
 /strix_runs_main/
+
+# Secrets hardening
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.toml
+
+
+# --- security: private keys / certs / tokens ---
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+secrets.env
+.env.*.local
+
